@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: auto;
+    height: 800px;
+    background-color: antiquewhite;
+}
+#header nav ul li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+#header nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+#header nav ul li a:hover{
+    color: red;
+}
+#header nav img{
+    width: 200px;
+    height: 70px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#header nav ul{
+    float: right;
+    margin-right: 100px;
+}
+.container{
+    margin: 10%;
+}
+.text-blog{
+    width:40%;
+    height: auto;
+    float: left;
+}
+.text-blog .femail-img{
+    width: 100%;
+    padding-left: 200px;
+   
+}
+.be-penguin{
+    color: orange;
+    font-size: 40px;
+}
+h1{
+    color: #000;
+    font-size: 30px;
+}
+.top-buttom{
+    width: 150px;
+    height: 50px;
+    background-color: #94AE2F;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    border-radius: 15px;
+    
+}
+
+.top-buttom img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+.container-2{
+    width: auto;
+    height: 500px;
+    padding-left: 130px;
+}
+.women-jecket{
+    width: 25%;
+    height: 500px;
+    border: 1px solid red;
+    float: left;
+    margin: 20px;
+}
+
+.women-jecket img{
+    width: 250px;
+    height: 300px;
+}
