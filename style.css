@@ -61,6 +61,7 @@ h1{
     color: white;
     position: absolute;
     border-radius: 15px;
+    border:none;
     
 }
 
@@ -68,21 +69,88 @@ h1{
     width: 20px;
     height: 20px;
     position: relative;
+    padding-top: 10px;
 }
-.container-2{
+#femail-container{
     width: auto;
-    height: 500px;
+    height: 600px;
     padding-left: 130px;
 }
-.women-jecket{
-    width: 25%;
+.femail-box{
+    box-shadow: 10px 10px 10px #F1F1F1;
+    
+    width: 300px;
     height: 500px;
-    border: 1px solid red;
+    display: inline-flex;
+    margin: 10px;
+    position: relative;
+}
+.jecket-box{
+    margin: 10px;
+    width: 270px;
+    height: 280px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #F1F1F1;
+}
+.jecket-box img{
+    width: 270px;
+    height: 280px;
+    
+}
+.buy-button{
+     float: right;
+     direction: none;
+     
+}
+.buy-button button{
+   width: 120px;
+   height: 40px;
+   color: honeydew;
+   font-size: 15px;
+   font-weight: bold;
+   background-color: #A4BC46;
+   border: none;
+   border-radius: 7px;
+}
+.buy-button img{
+    width: 20px;
+    height: 20px;
+}
+.price{
+font-size: 30px;
+color: #FCC245;
+}
+/*Footer Section */
+#footer{
+    width: 1200px;
+    height: 600px;
+    padding: 100px;
+}
+.footer-container{
+    width: 45%;
+    height: 550px;
     float: left;
-    margin: 20px;
 }
-
-.women-jecket img{
-    width: 250px;
-    height: 300px;
+.footer-box{
+    box-shadow: 10px 10px 10px #F1F1F1;
+    margin: 20px 0px 0px 30px;
+    border-radius: 10px;
+    width: 500px;
+    height: 150px;
+    background-color: #F1F1F1;
 }
+.footer-container img{
+width: 100%;
+height: 520px;
+}
+.footer-box img{
+ width: 120px;
+ height: 100px;
+}
+.heading-footer{
+    width: 360px;
+    height: 100px;
+    float: right;
+}
+    
